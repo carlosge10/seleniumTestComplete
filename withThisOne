@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  
+  <test name="GCTest">
+  	<parameter name="browser" value="gc" />
+    <classes>
+      <class name="test.testingXM.NewTestSon"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="FFTest">
+  	<parameter name="browser" value="ff" />
+    <classes>
+      <class name="test.testingXM.NewTestSon"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="IETest">
+  	<parameter name="browser" value="ie" />
+    <classes>
+      <class name="test.testingXM.NewTestSon"/>
+    </classes>
+  </test> <!-- Test -->  
+
+</suite> <!-- Suite -->
