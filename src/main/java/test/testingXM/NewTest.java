@@ -1,5 +1,7 @@
 package test.testingXM;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,11 +16,14 @@ import org.testng.annotations.Test;
 public class NewTest {
 	
 	protected WebDriver wd;
-	
-	@Parameters("browser")
+	protected String url;
+	Random gen;
+	@Parameters({"browser", "environment"})
 	@BeforeClass
-	public void beforeTest(String browser) {
-	    if(browser.equalsIgnoreCase("ff")){
+	public void beforeTest(String browser, String environment) {
+		System.out.println(environment);
+	    gen = new Random(314);
+		if(browser.equalsIgnoreCase("ff")){
 	    	System.out.println("choosing firefox");
 	    	System.setProperty("webdriver.gecko.driver", "C:\\Users\\CARLOSALFREDOGONZALE\\selenium\\gekodriver\\geckodriver.exe");
 	    	this.wd = new FirefoxDriver();

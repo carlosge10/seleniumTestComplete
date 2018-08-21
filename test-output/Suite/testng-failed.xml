@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <parameter name="environment" value="production"/>
   <parameter name="browser" value="ie"/>
+  <test name="GCTest(failed)">
+    <parameter name="browser" value="gc"/>
+    <classes>
+      <class name="test.testingXM.NewTestSon">
+        <methods>
+          <include name="f2"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="f1"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.testingXM.NewTestSon -->
+    </classes>
+  </test> <!-- GCTest(failed) -->
+  <test name="FFTest(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="test.testingXM.NewTestSon">
+        <methods>
+          <include name="f2"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="f1"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.testingXM.NewTestSon -->
+    </classes>
+  </test> <!-- FFTest(failed) -->
   <test name="IETest(failed)">
     <parameter name="browser" value="ie"/>
     <classes>
       <class name="test.testingXM.NewTestSon">
         <methods>
-          <include name="fp"/>
-          <include name="f"/>
+          <include name="f2"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="f1"/>
           <include name="beforeTest"/>
           <include name="beforeTest"/>
           <include name="beforeTest"/>
