@@ -46,6 +46,11 @@ public class NewTestSon extends NewTest{
 		  assert(false);
 	  }
   }
-
+  
+  @Test
+  public void som(){
+  	assert(true);
+  }
+  
 }
 

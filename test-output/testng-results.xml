@@ -2,12 +2,12 @@
 <testng-results total="12" passed="6" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-08-21T20:00:35Z" name="Suite" finished-at="2018-08-21T20:00:43Z" duration-ms="8381">
+  <suite started-at="2018-08-21T20:26:21Z" name="Suite" finished-at="2018-08-21T20:26:32Z" duration-ms="10694">
     <groups>
     </groups>
-    <test started-at="2018-08-21T20:00:35Z" name="GCTest" finished-at="2018-08-21T20:00:38Z" duration-ms="3075">
+    <test started-at="2018-08-21T20:26:21Z" name="GCTest" finished-at="2018-08-21T20:26:25Z" duration-ms="3421">
       <class name="test.testingXM.NewTestSon">
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:35Z" name="beforeTest" finished-at="2018-08-21T15:00:38Z" duration-ms="2772" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:21Z" name="beforeTest" finished-at="2018-08-21T15:26:24Z" duration-ms="3052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:38Z" name="fp" finished-at="2018-08-21T15:00:38Z" duration-ms="7" status="PASS">
+        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:24Z" name="fp" finished-at="2018-08-21T15:26:25Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fp -->
-        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:38Z" name="f1" finished-at="2018-08-21T15:00:38Z" duration-ms="6" status="FAIL">
+        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:25Z" name="f1" finished-at="2018-08-21T15:26:25Z" duration-ms="8" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:38Z" name="f2" finished-at="2018-08-21T15:00:38Z" duration-ms="4" status="FAIL">
+        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:25Z" name="f2" finished-at="2018-08-21T15:26:25Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -109,19 +109,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f2 -->
-        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:38Z" name="f3" finished-at="2018-08-21T15:00:38Z" duration-ms="1" status="PASS">
+        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:25Z" name="f3" finished-at="2018-08-21T15:26:25Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f3 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:00:38Z" name="afterTest" finished-at="2018-08-21T15:00:38Z" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@279fedbd]" started-at="2018-08-21T15:26:25Z" name="afterTest" finished-at="2018-08-21T15:26:25Z" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.testingXM.NewTestSon -->
     </test> <!-- GCTest -->
-    <test started-at="2018-08-21T20:00:38Z" name="FFTest" finished-at="2018-08-21T20:00:42Z" duration-ms="3759">
+    <test started-at="2018-08-21T20:26:25Z" name="FFTest" finished-at="2018-08-21T20:26:30Z" duration-ms="5275">
       <class name="test.testingXM.NewTestSon">
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:38Z" name="beforeTest" finished-at="2018-08-21T15:00:41Z" duration-ms="2774" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:25Z" name="beforeTest" finished-at="2018-08-21T15:26:29Z" duration-ms="3926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,11 +137,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:41Z" name="fp" finished-at="2018-08-21T15:00:41Z" duration-ms="2" status="PASS">
+        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:29Z" name="fp" finished-at="2018-08-21T15:26:29Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fp -->
-        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:41Z" name="f1" finished-at="2018-08-21T15:00:41Z" duration-ms="2" status="FAIL">
+        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:29Z" name="f1" finished-at="2018-08-21T15:26:29Z" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:41Z" name="f2" finished-at="2018-08-21T15:00:41Z" duration-ms="1" status="FAIL">
+        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:29Z" name="f2" finished-at="2018-08-21T15:26:29Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -223,19 +223,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f2 -->
-        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:41Z" name="f3" finished-at="2018-08-21T15:00:41Z" duration-ms="1" status="PASS">
+        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:29Z" name="f3" finished-at="2018-08-21T15:26:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f3 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:00:41Z" name="afterTest" finished-at="2018-08-21T15:00:42Z" duration-ms="963" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@7530ad9c]" started-at="2018-08-21T15:26:29Z" name="afterTest" finished-at="2018-08-21T15:26:30Z" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.testingXM.NewTestSon -->
     </test> <!-- FFTest -->
-    <test started-at="2018-08-21T20:00:42Z" name="IETest" finished-at="2018-08-21T20:00:43Z" duration-ms="1429">
+    <test started-at="2018-08-21T20:26:30Z" name="IETest" finished-at="2018-08-21T20:26:32Z" duration-ms="1882">
       <class name="test.testingXM.NewTestSon">
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:42Z" name="beforeTest" finished-at="2018-08-21T15:00:43Z" duration-ms="1397" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:30Z" name="beforeTest" finished-at="2018-08-21T15:26:32Z" duration-ms="1849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:43Z" name="fp" finished-at="2018-08-21T15:00:43Z" duration-ms="0" status="PASS">
+        <test-method signature="fp()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:32Z" name="fp" finished-at="2018-08-21T15:26:32Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fp -->
-        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:43Z" name="f1" finished-at="2018-08-21T15:00:43Z" duration-ms="1" status="FAIL">
+        <test-method signature="f1()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:32Z" name="f1" finished-at="2018-08-21T15:26:32Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -296,7 +296,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:43Z" name="f2" finished-at="2018-08-21T15:00:43Z" duration-ms="6" status="FAIL">
+        <test-method signature="f2()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:32Z" name="f2" finished-at="2018-08-21T15:26:32Z" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[bad luck expected [true] but found [false]]]>
@@ -337,11 +337,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f2 -->
-        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:43Z" name="f3" finished-at="2018-08-21T15:00:43Z" duration-ms="1" status="PASS">
+        <test-method signature="f3()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:32Z" name="f3" finished-at="2018-08-21T15:26:32Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f3 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:00:43Z" name="afterTest" finished-at="2018-08-21T15:00:43Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testingXM.NewTestSon@33c911a1]" started-at="2018-08-21T15:26:32Z" name="afterTest" finished-at="2018-08-21T15:26:32Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
